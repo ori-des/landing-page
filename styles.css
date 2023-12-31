@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: cadetblue;
+    padding: 15px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: blanchedalmond;
+}
+
