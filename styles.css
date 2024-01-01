@@ -21,11 +21,11 @@ body {
 .header-logo {
     font-weight: bolder;
     font-size: 24px;
-    padding-left: 10%;
+    padding-left: 3%;
 }
 
 .header-links {
-    padding-right: 10%;
+    padding-right: 3%;
 }
 
 .footer {
@@ -58,6 +58,8 @@ a {
     display: flex;
     align-items: center;
     background-color: cadetblue;
+    gap: 42px;
+    padding: 42px;
 }
 
 .center {
@@ -68,4 +70,26 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.quote {
+    background-color: lightgray;
+    padding-top: 35px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.quote-text {
+    font-style: italic;
+    font-size: 36px;
+    margin: 0;
+}
+
+.quote-author {
+    text-align: right;
+    padding: 10px;
+    font-weight: bold ;
+    margin: 0;
+    padding-bottom: 35px;
+    font-size: 36px;
 }
