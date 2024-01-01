@@ -62,13 +62,14 @@ a {
 }
 
 .center {
-    text-align: center;
+    padding: 24px;
 }
 
 .illustrations {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 24px;
 }
 
 .quote {
@@ -97,10 +98,15 @@ a {
     width: 400px;
 }
 
-.top-h1 {
+h1 {
     font-size: 48px;
     font-weight: bolder;
     margin: 0;
+}
+
+h2 {
+    text-align: center;
+    font-size: 36px;
 }
 
 .top-p {
@@ -111,4 +117,10 @@ a {
 img {
     border-radius: 10px;
     border-style: solid;
+}
+
+.center-card {
+    width: 180px;
+    font-size: 18px;
+    text-align: center;
 }
