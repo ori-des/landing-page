@@ -126,6 +126,7 @@ h3 {
 .top-p {
     font-size: 18px;
     margin: 0;
+    margin-bottom: 12px;
 }
 
 img {
@@ -154,4 +155,14 @@ img {
 
 .bottom-p {
     margin: 0;
+}
+
+button {
+    background-color: #4d213a;
+    color: #E5E7EB;
+    border: solid;
+    border-radius: 8px;
+    font-size: 18px;
+    padding: 6px 12px;
+    border-color: #3882F6;
 }
