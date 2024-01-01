@@ -68,7 +68,7 @@ a {
 
 .center {
     padding-top: 24px;
-    padding-bottom: 60px;
+    padding-bottom: 70px;
 }
 
 .illustrations {
@@ -79,7 +79,7 @@ a {
 }
 
 .quote {
-    background-color: lightgray;
+    background-color: #E5E7EB;
     padding-top: 35px;
     padding-left: 35px;
     padding-right: 35px;
@@ -118,6 +118,11 @@ h2 {
     font-size: 36px;
 }
 
+h3 {
+    font-size: 32px;
+    margin: 0;
+}
+
 .top-p {
     font-size: 18px;
     margin: 0;
@@ -132,4 +137,21 @@ img {
     width: 180px;
     font-size: 18px;
     text-align: center;
+}
+
+.bottom {
+    display: flex;
+    background-color: #3882F6;
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 200px;
+    border-radius: 10px;
+    gap: 200px;
+}
+
+.bottom-p {
+    margin: 0;
 }
