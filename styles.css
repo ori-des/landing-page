@@ -15,7 +15,7 @@ body {
 .header {
     justify-content: space-between;
     background-color: cadetblue;
-    color: darkslategray;
+    color: black;
 }
 
 .header-logo {
@@ -58,4 +58,14 @@ a {
     display: flex;
     align-items: center;
     background-color: cadetblue;
+}
+
+.center {
+    text-align: center;
+}
+
+.illustrations {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
