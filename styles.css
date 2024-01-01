@@ -9,15 +9,15 @@ body {
 .header,
 .footer {
     display: flex;
-    padding: 12px;
     align-items: center;
+    background-color: #4d213a;
+    color: whitesmoke;
 }
 
 .header {
     justify-content: center;
-    background-color: #4d213a;
-    color: whitesmoke;
     gap: 500px;
+    padding: 12px;
 }
 
 .header-logo {
@@ -32,7 +32,7 @@ body {
 
 .footer {
     justify-content: center;
-    margin: auto;
+    padding: 30px;
 }
 
 .content {
