@@ -21,6 +21,11 @@ body {
 .header-logo {
     font-weight: bolder;
     font-size: 24px;
+    padding-left: 10%;
+}
+
+.header-links {
+    padding-right: 10%;
 }
 
 .footer {
@@ -52,4 +57,5 @@ a {
 .top {
     display: flex;
     align-items: center;
+    background-color: cadetblue;
 }
