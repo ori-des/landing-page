@@ -184,8 +184,8 @@ button {
         flex-direction: column;
         justify-content: space-between;
         gap: 0;
-        padding: 0;
-        margin-bottom: 10px;
+        padding: 10px 0;
+        margin-bottom: 20px;
     }
 
     .top {
@@ -193,6 +193,7 @@ button {
         padding: 0;
         flex-shrink: 2;
         gap: 5px;
+        border-radius: 10px;
     }
 
     .top-card  {
@@ -202,7 +203,8 @@ button {
     }
 
     .quote {
-        padding: 0;
+        padding: 10px;
+        border-radius: 10px;
     }
 
     .quote-text {
@@ -214,9 +216,10 @@ button {
     }
 
     .bottom {
-        padding: 0;
+        padding: 5px 10px;
         flex-direction: column;
-        gap: 0;
+        gap: 5px;
+        max-width: 250px;
     }
 
     .large-illustration {
